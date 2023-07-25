@@ -67,6 +67,7 @@ To get started:
     pip install tqdm music21 pickle tensorflow
 
 To generate:
+
     python src/generator.py
 
 <p align="right">(<a href="#top">back to top</a>)</p>
