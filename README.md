@@ -78,8 +78,6 @@ To generate:
 
 Gabriel GUIET-DUPRE - [in: gabriel-guiet-dupre](https://linkedin.com/in/gabriel-guiet-dupre) - gabriel.guietdupre@edu.ece.fr
 
-Project Link: [https://github.com/gab_gdp/rayCastingVideoGame](https://github.com/Gab404/my_perceptron)
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
