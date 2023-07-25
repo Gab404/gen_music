@@ -2,7 +2,7 @@ import os, pickle, numpy, glob
 import tensorflow as tf
 from music21 import converter, instrument, note, chord
 from tqdm import tqdm
-from keras.utils import np_utils
+from keras.utils import to_categorical
 
 def get_file(): # Return all data of midi file in './Data/'
     all_midi = []
@@ -38,7 +38,7 @@ def get_sequencies(notes, n_vocab, sequence_length=100): # return network input 
     nb_sequences = len(network_input)
     network_input = numpy.reshape(network_input, (nb_sequences, sequence_length, 1)) # reshape for input LSTM
     network_input = network_input / float(n_vocab) # normalize input
-    network_output = np_utils.to_categorical(network_output) # apply one hot encoding on network output
+    network_output = to_categorical(network_output) # apply one hot encoding on network output
 
     return network_input, network_output
 

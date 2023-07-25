@@ -35,8 +35,6 @@ def predict(model, network_input, network_output, notes, duration, sequence_leng
     return notes_generated
 
 def create_midi(prediction_output):
-    """ convert the output from the prediction to notes and create a midi file
-        from the notes """
     offset = 0
     output_notes = []
 
