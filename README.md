@@ -37,9 +37,10 @@
 
 ![Product Name Screen Shot][schema-lstm]
 
-J'ai mis en place un résaux de neuronne avec 3 couches LSTM (shéma d'une cellule LSTM ci-dessus). Ce résau apprend à partir d'une séquence de 100 notes à générer la prochaine note la plus probable en fonction du style musical du dataset.
 
-Le dataset est constitué de fichier MIDI, ce qui permet de manipuler le fichier musical beaucoup plus simplement.
+I set up a neural network with 3 LSTM layers (diagram of an LSTM cell above). This network learns from a sequence of 100 notes to generate the next most likely note based on the musical style of the dataset.
+
+The dataset is made up of a MIDI file, which makes it much easier to manipulate the music file.
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
