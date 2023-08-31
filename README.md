@@ -38,9 +38,11 @@
 ![Product Name Screen Shot][schema-lstm]
 
 
-I set up a neural network with 3 LSTM layers (diagram of an LSTM cell above). This network learns from a sequence of 100 notes to generate the next most likely note based on the musical style of the dataset.
+I set up a neural network with 3 LSTM layers (diagram of an LSTM cell above). This network learns from a sequence of 100 notes to generate the next most likely note based on the musical style of the dataset thanks to a machine learning algorithm.
 
 The dataset is made up of a MIDI file, which makes it much easier to manipulate the music file.
+
+The result on [SoundCloud](https://soundcloud.com/gabriel-guiet-dupre-635410161/sets/ai-piano-generation)
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
